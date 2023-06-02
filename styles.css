@@ -21,7 +21,8 @@
 .banner,
 .section2,
 .call-to-action,
-.cards {
+.cards,
+.section3 {
     display: flex;
 }
 
@@ -39,7 +40,8 @@
     justify-content: space-between;
 }
 
-.section2 {
+.section2,
+.section3 {
     flex-direction: column;
 }
 
@@ -50,6 +52,7 @@
  .cards {
     justify-content: space-evenly;
  }
+
 .logo {
     font-size: 24px;
     font-weight: 600;
@@ -94,12 +97,29 @@ button,
     color: #f9faf8;
 }
 
-.section3{
+.section3 {
     background-color: #e5e7eb;
+
 }
 
+.quote,
+.quotee {
+    color: #1f2937;
+}
 .quote {
     font-size: 36px;
     font-weight: lighter;
-    color: #1f2937;
+    text-align: center;
+    margin-top: 2rem;
 }
+
+.quotee {
+    text-align: right;
+    margin-bottom: 2rem;
+ }
+
+.quote-text,
+.quotee-text {
+    margin-top: 0;
+    margin-bottom: 0;
+ }
