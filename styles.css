@@ -53,6 +53,11 @@
     justify-content: space-evenly;
  }
 
+ .caption,
+ .footer {
+    text-align: center;
+ }
+
 .logo {
     font-size: 24px;
     font-weight: 600;
