@@ -20,7 +20,8 @@
 .header,
 .banner,
 .section2,
-.call-to-action {
+.call-to-action,
+.cards {
     display: flex;
 }
 
@@ -37,10 +38,23 @@
 .banner {
     justify-content: space-between;
 }
+
+.section2 {
+    flex-direction: column;
+}
+
+.random-info{
+    text-align: center;
+}
+
+ .cards {
+    justify-content: space-evenly;
+ }
 .logo {
     font-size: 24px;
     font-weight: 600;
 }
+
 .section2,
 .section4 {
     background-color: #f9faf8;
