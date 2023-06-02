@@ -2,11 +2,27 @@
     border: solid 1px red;
 }
 
+.page-wrap  {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.banner,
+.section2,
+.call-to-action {
+    display: flex;
+}
+
 .section1,
 .footer {
     background-color: #1f2937;
 }
 
+.section2,
+.section4 {
+    background-color: #f9faf8;
+}
 .header,
 .footer {
     color: #f9faf8;
