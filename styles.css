@@ -167,3 +167,11 @@ button {
     flex-direction: row;
     justify-content: space-around;
 }
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d417a;
+}
