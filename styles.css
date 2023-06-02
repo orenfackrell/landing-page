@@ -9,8 +9,6 @@ body {
 .banner,
 .random.ifo,
 .cards,
-.quote,
-.quotee,
 .call-to-action {
     margin: 3rem 10rem;
 }
@@ -150,22 +148,19 @@ button,
     gap: 1rem;
 }
 
-.card1, 
-.card2, 
-.card3, 
-.card4,
 .call-to-action,
 button {
     border-radius: 15px;
 }
 
-.card1, 
-.card2, 
-.card3, 
-.card4 {
+.card1img, 
+.card2img, 
+.card3img, 
+.card4img {
     margin: 5px;
     padding: 10px;
     border: solid 4px #3882f6;
+    border-radius: 15px;
 }
 
 .section4 {
