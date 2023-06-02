@@ -16,6 +16,7 @@
 .call-to-action {
     margin: 0 10rem;
 }
+
 .header,
 .banner,
 .section2,
@@ -33,6 +34,9 @@
     align-items: center;
 }
 
+.banner {
+    justify-content: space-between;
+}
 .logo {
     font-size: 24px;
     font-weight: 600;
